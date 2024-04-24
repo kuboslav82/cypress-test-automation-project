@@ -1,2 +1,5 @@
 # Cypress plugin files
 plugins/
+
+# Node modules
+node_modules/
