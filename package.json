@@ -1,0 +1,24 @@
+{
+  "name": "cypress-test-automation-solution",
+  "version": "1.0.0",
+  "description": "cypress test solution",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "author": "Jakub Lhotsky",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.8.1",
+    "esbuild": "^0.20.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.4"
+  },
+  "cypress-cucumber-preprocessor": {
+      "json": {
+      "enabled": true
+    }
+  }
+}
