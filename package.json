@@ -18,7 +18,7 @@
   },
   "cypress-cucumber-preprocessor": {
       "json": {
-      "enabled": true
+        "enabled": true
     }
   }
 }
